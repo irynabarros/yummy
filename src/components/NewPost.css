@@ -1,0 +1,46 @@
+.new-post h3 {
+  text-align: center;
+  font-weight: 600;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: var(--second-color);
+
+  margin: 1rem 0 ;
+}
+
+.new-post h4 {
+  font-size: 1.1rem;
+  color: #646464;
+  font-weight: 600;
+}
+
+.recipe {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 3rem;
+  margin: 1rem 3rem 0;
+}
+
+.recipe p {
+  margin-right: 4rem;
+  font-size: 1rem;
+}
+
+.recipe img {
+  width: 100%;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .recipe {
+    grid-template-columns: 100%;
+  }
+
+  .recipe img {
+    padding: 0;
+  }
+
+  .recipe p {
+    margin-right: 0;
+  }
+}
